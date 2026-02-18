@@ -40,6 +40,26 @@
   flex-grow: 1;
 }
 
+.fixed_container{
+    width: 100%;
+    max-width: 1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider-landing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.divider-landing img{
+    width: 100%;
+    height: auto;
+}
+
 .body .logo {
   width: 95px;
   height: 33px;
