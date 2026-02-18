@@ -1,0 +1,290 @@
+:root {
+  --paragraph-small-font-family: "MADE TOMMY", Helvetica;
+  --paragraph-small-font-weight: 400;
+  --paragraph-small-font-size: 14px;
+  --paragraph-small-letter-spacing: -0.0840000033378601px;
+  --paragraph-small-line-height: 20px;
+  --paragraph-small-font-style: normal;
+  --label-small-font-family: "Inter", Helvetica;
+  --label-small-font-weight: 500;
+  --label-small-font-size: 14px;
+  --label-small-letter-spacing: -0.0840000033378601px;
+  --label-small-line-height: 20px;
+  --label-small-font-style: normal;
+  --label-x-small-font-family: "Inter", Helvetica;
+  --label-x-small-font-weight: 500;
+  --label-x-small-font-size: 12px;
+  --label-x-small-letter-spacing: 0px;
+  --label-x-small-line-height: 16px;
+  --label-x-small-font-style: normal;
+  --label-small-regular-font-family: "MADE TOMMY", Helvetica;
+  --label-small-regular-font-weight: 400;
+  --label-small-regular-font-size: 14px;
+  --label-small-regular-letter-spacing: -0.0840000033378601px;
+  --label-small-regular-line-height: 20px;
+  --label-small-regular-font-style: normal;
+  --title-h2-title-font-family: "MADE TOMMY", Helvetica;
+  --title-h2-title-font-weight: 500;
+  --title-h2-title-font-size: 48px;
+  --title-h2-title-letter-spacing: -0.48px;
+  --title-h2-title-line-height: 56px;
+  --title-h2-title-font-style: normal;
+  --paragraph-medium-font-family: "MADE TOMMY", Helvetica;
+  --paragraph-medium-font-weight: 400;
+  --paragraph-medium-font-size: 16px;
+  --paragraph-medium-letter-spacing: -0.17600000381469727px;
+  --paragraph-medium-line-height: 24px;
+  --paragraph-medium-font-style: normal;
+  --label-x-small-regular-font-family: "MADE TOMMY", Helvetica;
+  --label-x-small-regular-font-weight: 400;
+  --label-x-small-regular-font-size: 12px;
+  --label-x-small-regular-letter-spacing: 0px;
+  --label-x-small-regular-line-height: 16px;
+  --label-x-small-regular-font-style: normal;
+  --paragraph-x-small-font-family: "MADE TOMMY", Helvetica;
+  --paragraph-x-small-font-weight: 400;
+  --paragraph-x-small-font-size: 12px;
+  --paragraph-x-small-letter-spacing: 0px;
+  --paragraph-x-small-line-height: 16px;
+  --paragraph-x-small-font-style: normal;
+  --title-h3-title-font-family: "MADE TOMMY", Helvetica;
+  --title-h3-title-font-weight: 500;
+  --title-h3-title-font-size: 40px;
+  --title-h3-title-letter-spacing: -0.4px;
+  --title-h3-title-line-height: 48px;
+  --title-h3-title-font-style: normal;
+  --label-medium-regular-font-family: "MADE TOMMY", Helvetica;
+  --label-medium-regular-font-weight: 400;
+  --label-medium-regular-font-size: 16px;
+  --label-medium-regular-letter-spacing: -0.17600000381469727px;
+  --label-medium-regular-line-height: 24px;
+  --label-medium-regular-font-style: normal;
+  --title-h1-title-font-family: "MADE TOMMY", Helvetica;
+  --title-h1-title-font-weight: 500;
+  --title-h1-title-font-size: 56px;
+  --title-h1-title-letter-spacing: -0.56px;
+  --title-h1-title-line-height: 64px;
+  --title-h1-title-font-style: normal;
+  --title-h6-title-font-family: "Inter Display", Helvetica;
+  --title-h6-title-font-weight: 500;
+  --title-h6-title-font-size: 20px;
+  --title-h6-title-letter-spacing: 0px;
+  --title-h6-title-line-height: 28px;
+  --title-h6-title-font-style: normal;
+  --landing-title-h6-title-font-family: "Inter Variable", Helvetica;
+  --landing-title-h6-title-font-weight: 500;
+  --landing-title-h6-title-font-size: 20px;
+  --landing-title-h6-title-letter-spacing: -0.12000000476837158px;
+  --landing-title-h6-title-line-height: 28px;
+  --landing-title-h6-title-font-style: normal;
+  --label-medium-font-family: "Inter", Helvetica;
+  --label-medium-font-weight: 500;
+  --label-medium-font-size: 16px;
+  --label-medium-letter-spacing: -0.17600000381469727px;
+  --label-medium-line-height: 24px;
+  --label-medium-font-style: normal;
+  --landing-title-h4-title-font-family: "Inter Variable", Helvetica;
+  --landing-title-h4-title-font-weight: 500;
+  --landing-title-h4-title-font-size: 32px;
+  --landing-title-h4-title-letter-spacing: -0.16px;
+  --landing-title-h4-title-line-height: 40px;
+  --landing-title-h4-title-font-style: normal;
+  --label-x-large-font-family: "MADE TOMMY", Helvetica;
+  --label-x-large-font-weight: 500;
+  --label-x-large-font-size: 24px;
+  --label-x-large-letter-spacing: -0.36px;
+  --label-x-large-line-height: 32px;
+  --label-x-large-font-style: normal;
+  --fancy-buttons-neutral: 0px 0px 0px 1px rgba(36, 38, 40, 1), 0px 1px 2px 0px
+    rgba(27, 28, 29, 0.48);
+  --colored-shadows-gray:
+    0px 0px 0px 1px rgba(23, 23, 23, 0.04), 0px 1px 1px -0.5px rgba(
+      23,
+      23,
+      23,
+      0.04
+    ), 0px 3px 3px -1.5px rgba(23, 23, 23, 0.04), 0px 6px 6px -3px rgba(
+      23,
+      23,
+      23,
+      0.04
+    ), 0px 10px 10px -5px rgba(23, 23, 23, 0.04), 0px 20px 20px -10px rgba(
+      23,
+      23,
+      23,
+      0.04
+    );
+  --components-fancy-buttons-neutral: 0px 0px 0px 1px rgba(36, 38, 40, 1), 0px
+    1px 2px 0px rgba(27, 28, 29, 0.48);
+  --regular-shadow-x-small: 0px 1px 2px 0px rgba(10, 13, 20, 0.03);
+  --02-neutral-0: var(--06-foundations-neutral-gray-0);
+  --02-neutral-50: var(--06-foundations-neutral-gray-50);
+  --02-neutral-200: var(--06-foundations-neutral-gray-200);
+  --02-neutral-300: var(--06-foundations-neutral-gray-300);
+  --02-neutral-400: var(--06-foundations-neutral-gray-400);
+  --02-neutral-500: var(--06-foundations-neutral-gray-500);
+  --02-neutral-600: var(--06-foundations-neutral-gray-600);
+  --02-neutral-700: var(--06-foundations-neutral-gray-700);
+  --02-neutral-800: var(--06-foundations-neutral-gray-800);
+  --02-neutral-900: var(--06-foundations-neutral-gray-900);
+  --02-neutral-950: var(--06-foundations-neutral-gray-950);
+  --variable-collection-link-color: rgba(26, 90, 239, 1);
+  --01-tokens-bg-weak-25: var(--02-neutral-50);
+  --01-tokens-text-white-0: var(--02-neutral-0);
+  --01-tokens-text-soft-400-duplicate: var(--02-neutral-400);
+  --01-tokens-state-information-base: var(--06-foundations-blue-500);
+  --01-tokens-state-success-base: var(--06-foundations-green-500);
+  --01-tokens-state-feature-base: var(--06-foundations-purple-500);
+  --01-tokens-text-sub-600-duplicate: var(--02-neutral-600);
+  --01-tokens-state-error-base: var(--06-foundations-red-500);
+  --01-tokens-state-away-base: var(--06-foundations-yellow-500);
+  --01-tokens-bg-weak-50: var(--02-neutral-50);
+  --01-tokens-bg-white-0: var(--02-neutral-0);
+  --01-tokens-stroke-soft-200: var(--02-neutral-200);
+  --01-tokens-bg-strong-950: var(--02-neutral-950);
+  --01-tokens-bg-soft-200: var(--02-neutral-200);
+  --01-tokens-state-faded-dark: var(--02-neutral-800);
+  --01-tokens-static-static-white-duplicate: var(--02-neutral-0);
+  --06-foundations-neutral-gray-50: rgba(247, 247, 247, 1);
+  --06-foundations-blue-500: rgba(51, 92, 255, 1);
+  --06-foundations-green-500: rgba(31, 193, 107, 1);
+  --06-foundations-purple-500: rgba(125, 82, 244, 1);
+  --06-foundations-red-500: rgba(251, 55, 72, 1);
+  --06-foundations-yellow-500: rgba(246, 181, 30, 1);
+  --06-foundations-alpha-white-alpha-16: rgba(255, 255, 255, 0.16);
+  --06-foundations-neutral-gray-0: rgba(255, 255, 255, 1);
+  --06-foundations-neutral-gray-400: rgba(163, 163, 163, 1);
+  --06-foundations-neutral-gray-600: rgba(92, 92, 92, 1);
+  --06-foundations-neutral-gray-900: rgba(28, 28, 28, 1);
+  --06-foundations-neutral-slate-50: rgba(245, 247, 250, 1);
+  --06-foundations-green-600: rgba(29, 175, 97, 1);
+  --06-foundations-neutral-gray-950: rgba(23, 23, 23, 1);
+  --06-foundations-neutral-gray-500: rgba(123, 123, 123, 1);
+  --06-foundations-neutral-slate-0: rgba(255, 255, 255, 1);
+  --06-foundations-neutral-slate-400: rgba(153, 160, 174, 1);
+  --06-foundations-neutral-slate-600: rgba(82, 88, 102, 1);
+  --06-foundations-red-600: rgba(233, 53, 68, 1);
+  --06-foundations-yellow-600: rgba(230, 168, 25, 1);
+  --06-foundations-neutral-gray-800: rgba(38, 38, 38, 1);
+  --06-foundations-neutral-slate-950: rgba(14, 18, 27, 1);
+  --06-foundations-neutral-slate-500: rgba(113, 119, 132, 1);
+  --06-foundations-neutral-slate-900: rgba(24, 27, 37, 1);
+  --06-foundations-neutral-gray-200: rgba(235, 235, 235, 1);
+  --06-foundations-neutral-slate-800: rgba(34, 37, 48, 1);
+  --06-foundations-neutral-slate-200: rgba(234, 236, 240, 1);
+  --06-foundations-neutral-gray-700: rgba(51, 51, 51, 1);
+  --06-foundations-neutral-slate-700: rgba(43, 48, 59, 1);
+  --06-foundations-neutral-gray-300: rgba(209, 209, 209, 1);
+  --02-tokens-text-sub-600: var(--01-foundations-neutral-600);
+  --02-tokens-static-static-white: var(--01-foundations-neutral-0);
+  --02-tokens-text-strong-950: var(--01-foundations-neutral-950);
+  --02-tokens-text-soft-400: var(--01-foundations-neutral-400);
+  --02-tokens-icon-soft-400: var(--01-foundations-neutral-400);
+  --02-tokens-bg-surface-800: var(--01-foundations-neutral-800);
+  --02-tokens-bg-strong-950-duplicate: var(--01-foundations-neutral-950);
+  --02-tokens-stroke-sub-300: var(--01-foundations-neutral-300);
+  --02-tokens-stroke-strong-950: var(--01-foundations-neutral-950);
+  --01-foundations-neutral-600: rgba(82, 88, 102, 1);
+  --01-foundations-neutral-0: rgba(255, 255, 255, 1);
+  --01-foundations-neutral-950: rgba(14, 18, 27, 1);
+  --01-foundations-neutral-400: rgba(153, 160, 174, 1);
+  --01-foundations-neutral-800: rgba(34, 37, 48, 1);
+  --01-foundations-neutral-500: rgba(113, 119, 132, 1);
+  --01-foundations-neutral-200: rgba(225, 228, 234, 1);
+  --01-foundations-neutral-300: rgba(202, 207, 216, 1);
+  --04-radius-radius-10: 10px;
+  --04-radius-radius-12: 12px;
+  --04-radius-radius-full: 999px;
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-02-neutral-mode="gray">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-02-neutral-mode="gray"] {
+  --02-neutral-0: var(--06-foundations-neutral-gray-0);
+  --02-neutral-50: var(--06-foundations-neutral-gray-50);
+  --02-neutral-200: var(--06-foundations-neutral-gray-200);
+  --02-neutral-400: var(--06-foundations-neutral-gray-400);
+  --02-neutral-500: var(--06-foundations-neutral-gray-500);
+  --02-neutral-600: var(--06-foundations-neutral-gray-600);
+  --02-neutral-700: var(--06-foundations-neutral-gray-700);
+  --02-neutral-800: var(--06-foundations-neutral-gray-800);
+  --02-neutral-900: var(--06-foundations-neutral-gray-900);
+  --02-neutral-950: var(--06-foundations-neutral-gray-950);
+}
+
+[data-02-neutral-mode="slate"] {
+  --02-neutral-0: var(--06-foundations-neutral-slate-0);
+  --02-neutral-50: var(--06-foundations-neutral-slate-50);
+  --02-neutral-200: var(--06-foundations-neutral-slate-200);
+  --02-neutral-400: var(--06-foundations-neutral-slate-400);
+  --02-neutral-500: var(--06-foundations-neutral-slate-500);
+  --02-neutral-600: var(--06-foundations-neutral-slate-600);
+  --02-neutral-700: var(--06-foundations-neutral-slate-700);
+  --02-neutral-800: var(--06-foundations-neutral-slate-800);
+  --02-neutral-900: var(--06-foundations-neutral-slate-900);
+  --02-neutral-950: var(--06-foundations-neutral-slate-950);
+}
+
+[data-01-tokens-mode="light"] {
+  --01-tokens-bg-weak-25: var(--02-neutral-50);
+  --01-tokens-text-white-0: var(--02-neutral-0);
+  --01-tokens-text-soft-400-duplicate: var(--02-neutral-400);
+  --01-tokens-state-success-base: var(--06-foundations-green-500);
+  --01-tokens-text-sub-600-duplicate: var(--02-neutral-600);
+  --01-tokens-state-error-base: var(--06-foundations-red-500);
+  --01-tokens-state-away-base: var(--06-foundations-yellow-500);
+  --01-tokens-bg-weak-50: var(--02-neutral-50);
+  --01-tokens-bg-white-0: var(--02-neutral-0);
+  --01-tokens-stroke-soft-200: var(--02-neutral-200);
+  --01-tokens-bg-strong-950: var(--02-neutral-950);
+  --01-tokens-bg-soft-200: var(--02-neutral-200);
+  --01-tokens-state-faded-dark: var(--02-neutral-800);
+}
+
+[data-01-tokens-mode="dark"] {
+  --01-tokens-bg-weak-25: var(--02-neutral-900);
+  --01-tokens-text-white-0: var(--02-neutral-950);
+  --01-tokens-text-soft-400-duplicate: var(--02-neutral-500);
+  --01-tokens-state-success-base: var(--06-foundations-green-600);
+  --01-tokens-text-sub-600-duplicate: var(--02-neutral-400);
+  --01-tokens-state-error-base: var(--06-foundations-red-600);
+  --01-tokens-state-away-base: var(--06-foundations-yellow-600);
+  --01-tokens-bg-weak-50: var(--02-neutral-800);
+  --01-tokens-bg-white-0: var(--02-neutral-950);
+  --01-tokens-stroke-soft-200: var(--02-neutral-800);
+  --01-tokens-bg-strong-950: var(--02-neutral-0);
+  --01-tokens-bg-soft-200: var(--02-neutral-700);
+  --01-tokens-state-faded-dark: var(--02-neutral-300);
+}
+
+[data-02-tokens-mode="light"] {
+  --02-tokens-text-sub-600: var(--01-foundations-neutral-600);
+  --02-tokens-text-strong-950: var(--01-foundations-neutral-950);
+  --02-tokens-text-soft-400: var(--01-foundations-neutral-400);
+  --02-tokens-icon-soft-400: var(--01-foundations-neutral-400);
+  --02-tokens-bg-surface-800: var(--01-foundations-neutral-800);
+  --02-tokens-bg-strong-950-duplicate: var(--01-foundations-neutral-950);
+  --02-tokens-stroke-sub-300: var(--01-foundations-neutral-300);
+  --02-tokens-stroke-strong-950: var(--01-foundations-neutral-950);
+}
+
+[data-02-tokens-mode="dark"] {
+  --02-tokens-text-sub-600: var(--01-foundations-neutral-400);
+  --02-tokens-text-strong-950: var(--01-foundations-neutral-0);
+  --02-tokens-text-soft-400: var(--01-foundations-neutral-500);
+  --02-tokens-icon-soft-400: var(--01-foundations-neutral-500);
+  --02-tokens-bg-surface-800: var(--01-foundations-neutral-200);
+  --02-tokens-bg-strong-950-duplicate: var(--01-foundations-neutral-0);
+  --02-tokens-stroke-sub-300: var(--01-foundations-neutral-600);
+  --02-tokens-stroke-strong-950: var(--01-foundations-neutral-0);
+}

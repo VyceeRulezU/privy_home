@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrivyID - Identity Infrastructure Without Data Custody</title>
+    <link rel="stylesheet" href="abstract.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🔒</span> PrivyID
+                </div>
+                <nav class="nav">
+                    <a href="#products" class="nav-link">Products</a>
+                    <a href="#developers" class="nav-link">Developers</a>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                </nav>
+                <div class="header-actions">
+                    <button class="btn-signin">Sign in</button>
+                    <button class="btn-primary">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="breadcrumb">
+                <span>Home</span> / <span>Identity security, simplified at scale</span>
+            </div>
+            <h1 class="hero-title">Identity infrastructure<br>without data custody</h1>
+            <p class="hero-subtitle">Verify, protect and authenticate users through continuous identity verification with zero personal data stored</p>
+            <div class="hero-actions">
+                <button class="btn-primary btn-lg">Get Started Free</button>
+                <div class="cta-link">
+                    <span>→</span><a href="#">See it in action</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Row -->
+    <section class="features-row">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <span>✓</span>
+                    </div>
+                    <h3>Authentication</h3>
+                    <p>Secure user verification</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <span>📊</span>
+                    </div>
+                    <h3>Live Monitoring</h3>
+                    <p>Real-time threat detection</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <span>🔐</span>
+                    </div>
+                    <h3>Multi Verification</h3>
+                    <p>Multiple authentication layers</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <span>🔒</span>
+                    </div>
+                    <h3>Non-Sensitive Assets</h3>
+                    <p>Zero personal data storage</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Code Section -->
+    <section class="code-section">
+        <div class="container">
+            <div class="code-wrapper">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span>authentication.js</span>
+                        <span class="copy-icon">📋</span>
+                    </div>
+                    <pre><code>// Initialize PrivyID
+const privy = new PrivyID({
+  apiKey: 'your-api-key',
+  environment: 'production'
+});
+
+// Verify user identity
+privy.verify({
+  userId: 'user123',
+  metadata: { timestamp }
+}).then(result => {
+  console.log('Verified:', result);
+});</code></pre>
+                </div>
+                <div class="code-stats">
+                    <div class="stat-badge">
+                        <span class="color-dot red"></span>
+                        <span class="color-dot yellow"></span>
+                        <span class="color-dot green"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-center">
+                <button class="btn-primary">Try it out now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <h2 class="section-title">Identity verification at infrastructure scale</h2>
+            <p class="section-subtitle">Reduce compliance risks and launch faster. Over one million teams and platforms trust PrivyID with securing billions of identities.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">12M+</div>
+                    <p>Monthly verifications</p>
+                    <small>Securing the most demanding platforms, including Fortune 500 companies</small>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">&lt;30s</div>
+                    <p>Fastest verification</p>
+                    <small>Pure end-to-end verification without compromising security of compliance</small>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">0</div>
+                    <p>Personal data at rest</p>
+                    <small>All analytics data stored securely without personally identifiable information</small>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">40+</div>
+                    <p>Compliance certifications</p>
+                    <small>Every protocol and security standard works with built-in compliance for worldwide regulations</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risk Section -->
+    <section class="risk-section">
+        <div class="container">
+            <h2 class="section-title">Remove risk. Ship faster.<br>Stay compliant.</h2>
+            
+            <div class="risk-grid">
+                <div class="risk-card">
+                    <div class="risk-icon">
+                        <span>🛡️</span>
+                    </div>
+                    <h3>Always compliant</h3>
+                    <p>Stay covered with instantly updated compliance standards and automatic audits across US and EU regulations</p>
+                </div>
+                <div class="risk-card">
+                    <div class="risk-icon">
+                        <span>⚡</span>
+                    </div>
+                    <h3>Zero latency</h3>
+                    <p>Direct integrate without adding any speed bump to your application and user experience</p>
+                </div>
+                <div class="risk-card">
+                    <div class="risk-icon">
+                        <span>📋</span>
+                    </div>
+                    <h3>Reduced legal risk</h3>
+                    <p>No sensitive data in your systems creates natural liability reduction for every compliance requirement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-section">
+        <div class="container">
+            <h2 class="section-title">How identity verification should work</h2>
+            <p class="section-subtitle">PrivyID manages verification end-to-end so you can focus on your business instead of compliance and security</p>
+            
+            <div class="how-grid">
+                <div class="how-card">
+                    <div class="how-number">01</div>
+                    <h3>User verifies</h3>
+                    <p>User provides identity credentials directly to PrivyID without exposing any data to your system</p>
+                </div>
+                <div class="how-card">
+                    <div class="how-number">02</div>
+                    <h3>PrivyID verifies</h3>
+                    <p>We instantly authenticate and verify their identity against global verification authorities</p>
+                </div>
+                <div class="how-card">
+                    <div class="how-number">03</div>
+                    <h3>You Get Token</h3>
+                    <p>Your application receives a verified token confirming identity without handling any personal data</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="container">
+            <h2 class="section-title">Real results from teams using PrivyID</h2>
+            <p class="section-subtitle">See how fintech and platforms reduced costs, maximized compliance, and improved customer experience</p>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23ddd'/%3E%3C/svg%3E" alt="Daniel Okonkwo" class="testimonial-image">
+                    <div class="testimonial-text">
+                        <p class="testimonial-quote">"Everything we needed was already built—verification, compliance, and token delivery. It just worked out of the box."</p>
+                        <div class="testimonial-author">
+                            <strong>Daniel Okonkwo</strong>
+                            <span class="company">Aurora™</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-metrics">
+                    <div class="metric">
+                        <div class="metric-label">Reduction in setup time</div>
+                        <div class="metric-value">42s</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">Improvement in user satisfaction</div>
+                        <div class="metric-value">+37%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to integrate?</h2>
+            <p>Start securing your platform today.</p>
+            <div class="cta-buttons">
+                <button class="btn-primary">Get Started</button>
+                <button class="btn-secondary">View documentation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🔒</span> PrivyID
+                    </div>
+                    <p>&copy; 2024 PrivyID. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Security</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Documentation</h4>
+                        <ul>
+                            <li><a href="#">Getting Started</a></li>
+                            <li><a href="#">API Reference</a></li>
+                            <li><a href="#">SDKs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Compliance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="btn-primary btn-newsletter" type="button">Subscribe</button>
+</body>
+</html>
