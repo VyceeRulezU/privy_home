@@ -16,6 +16,12 @@
   flex: 0 0 auto;
 }
 
+.footer_links_wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+}
+
 .body .web-nav {
   display: flex;
   align-items: center;
