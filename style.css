@@ -1501,8 +1501,8 @@
 .body .text-wrapper-27 {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
   align-self: stretch;
   margin-top: -1px;
   font-family: var(--label-medium-regular-font-family);
@@ -1942,7 +1942,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   align-self: stretch;
   font-family: var(--label-small-regular-font-family);
   font-weight: var(--label-small-regular-font-weight);
@@ -2017,7 +2017,7 @@
 .body .stats-3 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: start;
   justify-content: flex-end;
   gap: 8px;
   padding: 32px 32px 28px;
@@ -2035,7 +2035,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   align-self: stretch;
   font-family: var(--label-medium-regular-font-family);
   font-weight: var(--label-medium-regular-font-weight);
@@ -2046,11 +2046,46 @@
   font-style: var(--label-medium-regular-font-style);
 }
 
+
+.body .text-wrapper-40 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  align-self: stretch;
+  font-family: var(--label-medium-regular-font-family);
+  font-weight: 700;
+  color: black;
+  font-size: 24px;
+  letter-spacing: var(--label-medium-regular-letter-spacing);
+  line-height: var(--label-medium-regular-line-height);
+  font-style: var(--label-medium-regular-font-style);
+  text-align: center;
+}
+
+.body .text-wrapper-41 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  align-self: stretch;
+  font-family: var(--label-medium-regular-font-family);
+  font-weight: 400;
+  color:var(--02-tokens-text-sub-600);
+  font-size: 16px;
+  letter-spacing: var(--label-medium-regular-letter-spacing);
+  line-height: var(--label-medium-regular-line-height);
+  font-style: var(--label-medium-regular-font-style);
+   text-align: center;
+}
+
 .body .element {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 40px;
+ 
 }
 /* Fixed Navigation Bar */
 .body .web-nav {
@@ -2296,8 +2331,22 @@
   }
 
   .body .CTA {
+    width: 100%;
+    height: auto;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 40px 20px;
+  }
+
+  .div-5 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 1rem;
   }
 
   .body .actions-3 {
